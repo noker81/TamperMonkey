@@ -8,7 +8,7 @@
 // ==/UserScript==
 
 //Конфирурация
-var regexp = /\b(modx|json|php|модх|битрикс)\b/gi;
+var regexp = /(?![^&;]+;)(?!<[^<>]*)(modx|json|php)(?![^<>]*>)(?![^&;]+;)/gi;
 var audioMP3 = "https://noisefx.ru/noise_base/19/09107.mp3";
 var speed = 10; //Каждые 10 секунд
 
